@@ -1,0 +1,13 @@
+{
+	"Base URL's file snippet": {
+		"prefix": "urls",
+		"body": [
+			"from django.urls import path",
+			"",
+			"urlpatterns = [",
+			"\tpath('$1', $2, name=$3)",
+			"]"
+		],
+		"description": "A snippet to generate the base urls.py file for django app."
+	}
+}
